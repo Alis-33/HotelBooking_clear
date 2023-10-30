@@ -38,6 +38,7 @@ namespace HotelBooking.Core.Services
                 return true;
             }
             return false;
+
         }
 
         public int FindAvailableRoom(DateTime startDate, DateTime endDate)
