@@ -41,6 +41,7 @@ namespace HotelBooking.Core.Services
 
         }
 
+
         public int FindAvailableRoom(DateTime startDate, DateTime endDate)
         {
             if (startDate <= DateTime.Today || startDate > endDate)
