@@ -47,3 +47,4 @@ steps:
   inputs:
     command: 'custom'
     customCommand: 'install newman -g'
+
